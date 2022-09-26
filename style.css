@@ -1,0 +1,94 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+#banner {
+	width: 100%;
+	position: : relative;
+}
+
+#logo {
+	width: 15%;
+	transform: translate(10%,80%);
+}
+
+#topBanner {
+	display: flex;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+.icon {
+	width: 25x;
+	height: 25px;
+	padding: 5px;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+.heading {
+	font-weight: bold;
+	text-align: center;
+}
+
+.character {
+	height: 330px;
+}
+
+.d-block {
+	width: 1400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 200%;
+	color: black;
+	transform: translate(20%,60%);
+	text-align: left;
+}
+
+
+h2{
+	font-size: 200%;
+	padding: 5%;
+}
+
+#topBanner > h2{
+	font-size: 100%;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+	transform: translate(50%,700%);
+}
+
+/*p{
+	font-size: 150%;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}*/
+
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
